@@ -33,6 +33,8 @@ RUN pip3 install pika
 RUN pip3 install requests
 RUN pip3 install tables
 RUN pip3 install pymongo
+RUN pip3 install simplejson
+RUN pip3 install raven
 
 # Set up Erlang 20.3-1
 RUN wget http://packages.erlang-solutions.com/site/esl/esl-erlang/FLAVOUR_1_general/esl-erlang_20.3-1~ubuntu~xenial_amd64.deb
